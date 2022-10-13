@@ -1,1 +1,45 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Roller Roi</title>
+  </head>
+  <body>
+    <div class="header">ROLLERCOIN ROI CALCULATER</div>
+    <table>
+      <tr>
+        <th>Miner Price :</th>
+        <td><input type="text" name="" id="price" /> RLT</td>
+      </tr>
+      <tr>
+        <th>Miner Power :</th>
+        <td><input type="text" name="" id="mp" /> Gh/s</td>
+      </tr>
+      <tr>
+        <th>RLT Network Power :</th>
+        <td><input type="text" name="" id="np" />EH/s</td>
+      </tr>
+      <tr>
+        <th>Block Reward :</th>
+        <td id="br">20</td>
+      </tr>
+      <tr>
+        <th>Daily Income :</th>
+        <td id="di"></td>
+      </tr>
+      <tr>
+        <th>Miner Roi Day :</th>
+        <td id="mrd"></td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><input type="button" value="Calculate" id="btn" /></td>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>
